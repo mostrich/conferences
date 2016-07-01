@@ -1,0 +1,213 @@
+<div data-lift="surround?with=restricted-bt3;at=restricted;eat=_">
+
+<div class="row box">
+  <div class="col-sm-8">
+  </div>
+  <div class="col-sm-offset-1 col-sm-2 form-group page-header-addon-h1" data-lift="has_role?name=admin">
+    <a data-lift="Summary.toggleArchive" class="form-control lift-toggle-archive-btn">
+      <i class="fa"></i> <span class="atext"></span>
+    </a>
+  </div>
+  <div class="col-sm-1 page-header-addon-h1" data-lift="has_role?name=admin">
+    <a data-lift="Summary.cloneEvent" class="btn btn-default lift-clone-event-btn">
+      <span data-lift="i18n.i">events.summary.clone</span>
+    </a>
+  </div>
+</div>
+
+<div class="row" data-lift="Summary">
+  <div class="col-sm-12">
+    <div class="event-summary-wrap js-event-summary">
+
+      <div class="summary-block pull-left registrants">
+        <div class="pic"></div>
+        <div class="text">
+          <a class="lift-registrants-report-url">
+            <strong class="js-registrants">
+              <i class="fa fa-spinner fa-pulse"></i>
+            </strong>
+            <span data-lift="i18n.i">events.summary.registrants.title</span>
+          </a>
+        </div>
+        <div class="bottom">
+          <span data-lift="i18n.i">events.summary.registrants.description</span>
+        </div>
+      </div>
+      <div class="summary-block pull-left advocates">
+        <div class="pic"></div>
+        <div class="text">
+          <a class="lift-advocates-report-url">
+            <strong class="js-advocates">
+              <i class="fa fa-spinner fa-pulse"></i>
+            </strong>
+            <span data-lift="i18n.i">events.summary.advocates.title</span>
+          </a>
+        </div>
+        <div class="bottom">
+          <span data-lift="i18n.i">events.summary.advocates.description</span>
+        </div>
+      </div>
+      <div class="summary-block pull-left network">
+        <div class="pic"></div>
+        <div class="text">
+          <strong class="js-network-reach">
+            <i class="fa fa-spinner fa-pulse"></i>
+          </strong>
+          <span data-lift="i18n.i">events.summary.network.reach.title</span>
+        </div>
+        <div class="bottom">
+          <span data-lift="i18n.i">events.summary.network.reach.description</span>
+        </div>
+      </div>
+      <div class="summary-block pull-left invites">
+        <div class="half">
+          <strong class="js-invites"><i class="fa fa-spinner fa-pulse"></i></strong>
+          <span class="lift-content" data-lift="i18n.ia?attr=title" title="events.summary.invites">events.summary.invites</span>
+        </div>
+        <div class="sep"></div>
+        <div class="half">
+          <strong class="js-trusted-impressions"><i class="fa fa-spinner fa-pulse"></i></strong>
+          <span class="lift-content" data-lift="i18n.ia?attr=title" title="events.summary.trusted.impressions">events.summary.trusted.impressions</span>
+        </div>
+      </div>
+      <div class="summary-block pull-left acquisition">
+        <div class="pic"></div>
+        <div class="text">
+          <a class="lift-acquisitions-report-url">
+            <strong class="js-acquisitions"><i class="fa fa-spinner fa-pulse"></i></strong>
+            <span data-lift="i18n.i">events.summary.acquisitions.title</span>
+          </a>
+        </div>
+        <div class="bottom">
+          <span data-lift="i18n.i">events.summary.acquisitions.description</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="row box" data-lift="Summary">
+  <div class="col-sm-3" data-lift="has_any_roles?roles=admin">
+    <a class="btn btn-block btn-app lift-conference-edit-url">
+      <i class="fa fa-edit"></i>
+      <span data-lift="i18n.i">events.summary.box.edit.title</span>
+    </a>
+  </div>
+
+  <div class="col-sm-3" data-lift="has_any_roles?roles=admin,organizer">
+    <a class="btn btn-block btn-app lift-logos-url">
+      <i class="fa fa-file-image-o"></i>
+      <span data-lift="i18n.i">events.summary.box.logos.title</span>
+    </a>
+  </div>
+
+  <div class="col-sm-3" data-lift="has_any_roles?roles=admin">
+    <a class="btn btn-block btn-app lift-keywords-url">
+      <i class="fa fa-tags"></i>
+      <span data-lift="i18n.i">events.summary.box.keywords.title</span>
+    </a>
+  </div>
+
+  <div class="col-sm-3" data-lift="has_any_roles?roles=admin">
+    <a class="btn btn-block btn-app lift-contacts-list-url">
+      <i class="fa fa-book"></i>
+      <span data-lift="i18n.i">events.summary.box.contacts.title</span>
+    </a>
+  </div>
+
+  <div class="col-sm-3" data-lift="has_any_roles?roles=admin,organizer">
+    <a class="btn btn-block btn-app lift-advocacy-templates-url">
+      <i class="fa fa-commenting-o"></i>
+      <span data-lift="i18n.i">events.summary.box.advocacy.texts.title</span>
+    </a>
+  </div>
+
+  <div class="col-sm-3" data-lift="has_any_roles?roles=admin">
+    <a class="btn btn-block btn-app lift-og-meta-tags-url">
+      <i class="fa fa-object-group"></i>
+      <span data-lift="i18n.i">events.summary.box.open.graph.tags.title</span>
+    </a>
+  </div>
+
+  <div class="col-sm-3" data-lift="has_any_roles?roles=admin">
+    <a class="btn btn-block btn-app lift-widget-config-url">
+      <i class="fa fa-cube"></i>
+      <span data-lift="i18n.i">events.summary.box.widgets.title</span>
+    </a>
+  </div>
+
+  <div class="col-sm-3" data-lift="has_any_roles?roles=admin">
+    <a class="btn btn-block btn-app lift-widget-event-url">
+      <i class="ion ion-ios-pulse-strong"></i>
+      <span data-lift="i18n.i">events.summary.box.widgets.events.title</span>
+    </a>
+  </div>
+
+  <div class="col-sm-3" data-lift="has_any_roles?roles=admin,organizer">
+    <a class="btn btn-block btn-app lift-social-email-url">
+      <i class="fa fa-at"></i>
+      <span data-lift="i18n.i">events.summary.box.social.email.title</span>
+    </a>
+  </div>
+
+  <div class="col-sm-3" data-lift="has_any_roles?roles=admin">
+    <a class="btn btn-block btn-app lift-advocates-report-url">
+      <i class="fa fa-child"></i>
+      <span data-lift="i18n.i">events.summary.box.advocates.report.title</span>
+    </a>
+  </div>
+
+  <div class="col-sm-3" data-lift="has_any_roles?roles=admin">
+    <a class="btn btn-block btn-app lift-registrants-report-url">
+      <i class="fa fa-male"></i>
+      <span data-lift="i18n.i">events.summary.box.registrants.report.title</span>
+    </a>
+  </div>
+
+
+  <div class="col-sm-3" data-lift="has_any_roles?roles=admin,organizer">
+    <a class="btn btn-block btn-app lift-attendees-list-url">
+      <i class="fa fa-ticket"></i>
+      <span data-lift="i18n.i">events.summary.box.attendees.title</span>
+    </a>
+  </div>
+
+  <div class="col-sm-3" data-lift="has_any_roles?roles=admin">
+    <a class="btn btn-block btn-app lift-social-activity-report-url">
+      <i class="fa fa-line-chart"></i>
+      <span data-lift="i18n.i">events.summary.box.social.activity.report.title</span>
+    </a>
+  </div>
+
+
+
+  <div class="col-sm-3" data-lift="has_any_roles?roles=admin">
+    <a class="btn btn-block btn-app lift-reports-url">
+      <i class="fa fa-pie-chart"></i>
+      <span data-lift="i18n.i">events.summary.box.reports.title</span>
+    </a>
+  </div>
+
+  <div class="col-sm-3" data-lift="has_any_roles?roles=admin">
+    <a class="btn btn-block btn-app lift-confirm-attendee-url">
+      <i class="fa fa-check-square-o"></i>
+      <span data-lift="i18n.i">events.summary.box.confirm.attendees.title</span>
+    </a>
+  </div>
+
+  <div class="col-sm-3" data-lift="has_any_roles?roles=admin,organizer">
+    <a class="btn btn-block btn-app lift-file-uploader-url">
+      <i class="fa fa-cloud-upload"></i>
+      <span data-lift="i18n.i">events.summary.box.file.uploader.title</span>
+    </a>
+  </div>
+
+  <div class="col-sm-3" data-lift="has_any_roles?roles=admin">
+    <a class="btn btn-block btn-app lift-email-campaign-url">
+      <i class="fa fa-envelope"></i>
+      <span data-lift="i18n.i">events.summary.box.email.campaign.title</span>
+    </a>
+  </div>
+</div>
+
+</div>
